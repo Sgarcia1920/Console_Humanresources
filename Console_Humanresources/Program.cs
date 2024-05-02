@@ -59,7 +59,7 @@ public class Program
 					break;
 
 				case 2:
-					//Guardar la informacion de employee en un archivo txt  como csv
+					
 					string path = @"C:\Users\Ani uwu\Documents\Files";
 					using (StreamWriter sw = File.CreateText(path))
 					{
